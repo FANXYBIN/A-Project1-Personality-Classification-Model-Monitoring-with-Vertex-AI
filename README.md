@@ -10,23 +10,6 @@ The full pipeline included **dataset creation**, **model training**, **evaluatio
 
 ---
 
-### 🧩 Feature Attribution (Explainability)
-
-**Top Features (SHAP Analysis)**  
-| Feature | Importance | Interpretation |
-|----------|-------------|----------------|
-| Post_frequency | ⭐ Highest | High posting frequency = Extroversion |
-| Social_event_attendance | ⭐⭐ | Social activity drives Extrovert classification |
-| Stage_fear | ⭐⭐ | Low stage fear → Extrovert; high fear → Introvert |
-| Time_spent_alone | ⭐ | Longer time alone → Introversion |
-| Friends_circle_size | ⭐ | Moderate indicator of social confidence |
-
-<div align="center">
-  <img src="images/vertex_feature_attribution.png" alt="Feature Attribution Plot" width="600"/>
-</div>
-
----
-
 ### 🧱 Model Creation
 
 **1. Dataset Upload**
@@ -63,6 +46,22 @@ The full pipeline included **dataset creation**, **model training**, **evaluatio
 
 ---
 
+### 🧩 Feature Attribution (Explainability)
+
+**Top Features (SHAP Analysis)**  
+| Feature | Importance | Interpretation |
+|----------|-------------|----------------|
+| Post_frequency | ⭐ Highest | High posting frequency = Extroversion |
+| Social_event_attendance | ⭐⭐ | Social activity drives Extrovert classification |
+| Stage_fear | ⭐⭐ | Low stage fear → Extrovert; high fear → Introvert |
+| Time_spent_alone | ⭐ | Longer time alone → Introversion |
+| Friends_circle_size | ⭐ | Moderate indicator of social confidence |
+
+<div align="center">
+  <img src="images/vertex_feature_attribution.png" alt="Feature Attribution Plot" width="600"/>
+</div>
+
+---
 
 ### 🧩 Model Monitoring Configuration
 
